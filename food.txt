@@ -1,0 +1,49 @@
+Git, git-hub : 코드와 데이터를 안전하게 보관하는 곳
+
+Git : 파일관리, 형상관리툴, 인터넷에 연결되어있지않아도 파일관리해줌
+
+맥에서 깃 설치하기
+
+[Mac OS] 터미널에서 실행하기
+> brew install git
+> git config --global init.defaultBranch main
+> git config --global init.defaultBranch
+> git branch -M main
+> git --version 넣고 설치 제대로 됐는지 확인하기
+
+[windows OS]
+> https://git-scm.com/
+> 설치할때 override the default branch name for new repositories > main 작성
+> git폴더 행성 > 우클릭 > open git banch here
+> https://github.com/
+
+--
+깃이랑 깃허브 연결하기
+터미널에서 살행하기
+
+> 정보
+이름 : arago3
+이메일 : aragoworking@gmail.com
+
+> git config --global user.email "이메일"
+> git config --global user.name "이름"
+> git config --list : 잘설치됐는지 확인
+
+git config --global user.email "aragoworking@gmail.com"
+git config --global user.name "arago3"
+git config --list
+
+------
+init으로 이 폴더를 관리할거야.
+버전을 만들기 위해 파일을 골라내는 행위를 스테이징이라고 하고,
+add라는 명령어를 사용하고, commit으로 확정한다.
+
+흐름 : Init > add > commit
+
+
+
+
+
+
+
+
